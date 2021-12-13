@@ -1,0 +1,14 @@
+{
+    "nome":"Maria Cecilia",
+    "idade":15,
+    "Profissao":"Estudante",
+    "salario":1000.20,
+    "cursos":["html","css","JavaScript"],
+    "desempregado": false,
+    "estrangeiro": true,
+    "endereço":{
+        "rua":"aaaaaaaaa",
+        "numero":24,
+        "cidade":"aaaaaaa"
+    }
+}

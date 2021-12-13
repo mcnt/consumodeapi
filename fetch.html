@@ -1,0 +1,40 @@
+</script>
+<h1>USANDO API COM FETCH</h1>
+
+<div id="content"></div>
+<script>
+    
+    //Quando a resposta chegar transforme em json
+    fetch('https://brasilapi.com.br/')
+    .then(function(response){
+        return response.json()
+    }).then(function(data){
+        console.log(data)
+        //colocando API numa lista
+        // lista= document.createElement('ul')
+
+        //mostrando elementos da API
+        // for(const dados of data.results){
+        //     item=document.createElement('li')
+        //     //Conteudo da li
+        //     content=document.createTextNode(dados)
+        //     item.appendChild(content)
+        //     lista.appendChild(item)
+            
+        // }
+        //adicionando elemento ao pai
+        //document.getElementById('content').appendChild(lista)
+})
+
+    //Buscando elementos especifico na API, COLOCANDO O
+    //ELEMENTO....exemplo "name"
+
+    // for(const person of data.results){
+    //     console.log(person.name)
+        
+    //     }
+    // })
+
+
+   
+</script>
